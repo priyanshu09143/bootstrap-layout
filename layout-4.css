@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+html{
+    background-color:rgb(34 42 48);
+}
+nav h1{
+    font-size: 2rem;
+}
+nav{
+    margin: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul a{
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+}
+section{
+    margin: 8px 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.words{
+    padding: 60px;
+    margin: 60px 20px;
+    /* border:2px solid */
+}
+
+.words h1{
+    font-size: 56px;
+}
+.words p{
+    font-size: 25px;
+
+}
+section img{
+    width: 600px;
+    height: 400px;
+}
+.words #get,#learn{
+    text-decoration: none;
+    background-color: rgb(26 99 224);
+    padding: 14px 23px;
+    margin-right: 2rem;
+    border-radius: 10px;
+    font-size: 23px;
+}
+#learn{
+    background-color:rgb(34 42 48);
+    border: 2px solid;
+}
+.words p{
+    margin-bottom:40px ;
+}
